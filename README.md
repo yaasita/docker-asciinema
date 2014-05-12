@@ -1,4 +1,4 @@
-# asciinemaインストールイメージ
+# asciinemaインストールイメージ(yaasita専用!)
 
 ## 使い方
 
