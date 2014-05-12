@@ -3,6 +3,8 @@
 ## 使い方
 
 1. authorized_keysに自分の公開鍵を置く
+
+        cp /path/to/authorized_keys ./authorized_keys
 2. asciinemaというイメージをビルド
 
         docker build -t asciinema .
