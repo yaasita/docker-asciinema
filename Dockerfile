@@ -2,6 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER yaasita
 
 RUN mkdir /root/.ssh
+ADD 02proxy /etc/apt/apt.conf.d/02proxy
 ADD authorized_keys /root/.ssh/authorized_keys
 
 RUN apt-get update
